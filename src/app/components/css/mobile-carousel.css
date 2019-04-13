@@ -1,0 +1,348 @@
+@media only screen and (max-width: 425px) {
+    #avaliacao-carousel {
+        background-color: #DEDEDE;
+    }
+    .form-feedback {
+        padding: 5px 10px;
+        margin: 10px 0;
+        width: 500px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #262626;
+        color: #fff;
+    }
+    .form-feedback-carousel {
+        padding: 30px 10px;
+        margin: 0;
+        width: 95vw;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: transparent;
+        color: #fff;
+    }
+    .carousel {
+        text-align: center;
+        letter-spacing: 18px;
+        text-transform: uppercase;
+    }
+    .rating {
+        overflow: hidden;
+        vertical-align: bottom;
+        display: inline-block;
+        width: 90px;
+        height: 30px;
+    }
+    .rating>input {
+        opacity: 0;
+        margin-right: -100%;
+    }
+    .rating>label {
+        position: relative;
+        display: block;
+        float: right;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-off-big.png');
+        background-size: 30px 30px;
+        margin: 0 10px;
+    }
+    .rating>label:before {
+        display: block;
+        opacity: 0;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-on-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .rating>label:before {
+        display: block;
+        opacity: 0;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-half-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .rating-full>label:before {
+        display: block;
+        opacity: 1;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-on-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .rating-half>label:before {
+        display: block;
+        opacity: 1;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-half-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .carousel-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-container-grey {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #DEDEDE;
+    }
+    .carousel-part-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        border-bottom: 2px solid;
+        font-size: 1.1rem;
+    }
+    .carousel-part-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    .carousel-msg {
+        width: 95vw;
+        text-align: center
+    }
+    .carousel-nomes {
+        font-weight: bold;
+        margin: 5px 0;
+    }
+    .carousel-location {}
+    .carousel-cidade {}
+    .carousel-data {
+        text-align: center;
+        margin: 10px 0;
+    }
+    #corpo {
+        margin-bottom: 0;
+    }
+    .slick-arrow.slick-next {
+        margin-top: -60px;
+        right: 20px;
+        color: #DEDEDE !important;
+    }
+    .slick-arrow.slick-prev {
+        margin-top: -60px;
+        left: 20px;
+        color: #DEDEDE !important;
+    }
+    .slick-next:before, .slick-prev:before {
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: black;
+    }
+    .slick-prev:before {
+        content: "\f053";
+        color: #000;
+        font-family: FontAwesome, Icons;
+        font-size: 30px;
+    }
+    .slick-next:before {
+        content: "\f054";
+        color: #000;
+        font-family: FontAwesome, Icons;
+        font-size: 30px;
+    }
+    .slick-slide {
+        background-color: #DEDEDE;
+        display: flex !important;
+        float: left;
+        height: 100%;
+        min-height: 1px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 359px) and (min-width: 320px) {
+    #avaliacao-carousel {
+        background-color: #DEDEDE;
+    }
+    .form-feedback {
+        padding: 5px 10px;
+        margin: 10px 0;
+        width: 500px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #262626;
+        color: #fff;
+        border: 1px solid
+    }
+    .form-feedback-carousel {
+        padding: 30px 10px;
+        margin: 0;
+        width: 95vw;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: transparent !important;
+        color: #fff;
+    }
+    .carousel {
+        text-align: center;
+        letter-spacing: 18px;
+        text-transform: uppercase;
+    }
+    .rating {
+        overflow: hidden;
+        vertical-align: bottom;
+        display: inline-block;
+        width: 90px;
+        height: 30px;
+    }
+    .rating>input {
+        opacity: 0;
+        margin-right: -100%;
+    }
+    .rating>label {
+        position: relative;
+        display: block;
+        float: right;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-off-big.png');
+        background-size: 30px 30px;
+        margin: 0 10px;
+    }
+    .rating>label:before {
+        display: block;
+        opacity: 0;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-on-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .rating>label:before {
+        display: block;
+        opacity: 0;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-half-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .rating-full>label:before {
+        display: block;
+        opacity: 1;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-on-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .rating-half>label:before {
+        display: block;
+        opacity: 1;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('https://cdn.awsli.com.br/399/399180/arquivos/star-half-big.png');
+        background-size: 30px 30px;
+        transition: opacity 0.2s linear;
+    }
+    .carousel-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-container-grey {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #DEDEDE;
+    }
+    .carousel-part-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        border-bottom: 2px solid;
+        font-size: 1.1rem;
+        width: 85vw;
+    }
+    .carousel-part-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    .carousel-msg {
+        width: 95vw;
+        text-align: center
+    }
+    .carousel-nomes {
+        font-weight: bold;
+        margin: 5px 0;
+    }
+    .carousel-location {}
+    .carousel-cidade {}
+    .carousel-data {
+        text-align: center;
+        margin: 10px 0;
+    }
+    #corpo {
+        margin-bottom: 0;
+    }
+    .slick-arrow.slick-next {
+        margin-top: -60px;
+        right: 20px;
+        color: #DEDEDE !important;
+    }
+    .slick-arrow.slick-prev {
+        margin-top: -60px;
+        left: 20px;
+        color: #DEDEDE !important;
+    }
+    .slick-next:before, .slick-prev:before {
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: black;
+    }
+    .slick-prev:before {
+        content: "\f053";
+        color: #000;
+        font-family: FontAwesome, Icons;
+        font-size: 30px;
+    }
+    .slick-next:before {
+        content: "\f054";
+        color: #000;
+        font-family: FontAwesome, Icons;
+        font-size: 30px;
+    }
+    .slick-arrow.slick-prev {
+        color: #DEDEDE !important;
+    }
+    .slick-slide {
+        background-color: #DEDEDE;
+        display: flex !important;
+        float: left;
+        height: 100%;
+        min-height: 1px;
+        justify-content: center;
+        align-items: center;
+    }
+}
